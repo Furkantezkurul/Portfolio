@@ -55,3 +55,10 @@ main {
 .project img:hover {
     transform: scale(1.05);
 }
+
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Display one picture per row on mobile devices */
+    }
+}
